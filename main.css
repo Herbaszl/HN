@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;}
+
+    img{
+        width: 606px;
+        height: 350px;
+        object-fit: fill;
+        margin-bottom: 20px;
+        margin-right: 30px;}
+
+        video, .traileran{
+            width: 1280px;
+            width: 80%;
+            display: block;
+            margin-left: auto; 
+            margin-right: auto
+        }
+
+    header{
+        padding: 16px 0;
+        color: #ecf0f1;
+        border-width: 8px;
+        border-style: solid; 
+        border-color: black;
+        background-color: black;
+        margin-bottom: 120px;}
+
+        header .container{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;}
+
+    header nav li{
+        display: inline;
+        margin-left: 16px;
+        font-size: 24px;
+    }
+    
+    header nav li a{
+        color:#ecf0f1;
+        text-decoration: none;
+    }
+    header nav li a:hover{
+        text-decoration:underline
+    }
+
+.container h1, section h2{
+font-family: 'Roboto Slab', serif;
+display:flex;
+color: white;
+font-size: 38px;
+}
+
+section p{
+    font-family: 'Source Code Pro', monospace;
+    display: -webkit-box;
+    color: #ecf0f1bd;
+    font-size:20px;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical; 
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+html{
+    height: 100%;
+    background:url('./Mídia/background.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
