@@ -58,9 +58,9 @@ section p{
     font-family: 'Source Code Pro', monospace;
     display: -webkit-box;
     color: #ecf0f1bd;
-    font-size:20px;
-    -webkit-line-clamp: 6;
+    font-size:16px;
     -webkit-box-orient: vertical; 
+    
 }
 
 section {
@@ -76,6 +76,4 @@ html{
     background:url('./Mídia/background.webp') no-repeat center center fixed;
     background-size: cover;
 }
-
-
 
